@@ -1,0 +1,10 @@
+(
+  (SET A '2')
+  (PRINT A)
+  (SET B '(1 2 3)')
+  (PRINT B)
+  (PRINT (CDR B))
+  (PRINT NIL)
+  (PRINT "HELLO")
+  (PRINT '(6)')
+)
