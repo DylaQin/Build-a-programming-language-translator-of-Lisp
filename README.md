@@ -4,13 +4,13 @@ The programming language LISP, developed in 1958, is one of the oldest languages
 Here, I develop a very simple language inspired by these concepts called NUCLEI (Neill’s UnCommon Lisp Expression Interpreter) and a means to parse or interpret the instructions.
 
 
-###Examples
+### Examples
 Parsing :
 ```bash
-  (
-    (SET A ’1’)
-    (PRINT A)
-  )
+(
+  (SET A ’1’)
+  (PRINT A)
+)
 ```
 leads to the output :
 ```bash
@@ -23,9 +23,9 @@ or with the interpreter :
 
 The CONS instruction is used to construct lists : 
 ```bash
-  (
-    (PRINT (CONS ’1’ (CONS ’2’ NIL)))
-  )
+(
+  (PRINT (CONS ’1’ (CONS ’2’ NIL)))
+)
 ```
 Output :
 ```bash
